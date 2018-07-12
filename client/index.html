@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Video Game Database</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/database.css">
+    </head>
+
+    <body>
+        <div id="app">
+            <button class="btn btnLg btnDefault" id="createAccountButton">Create Account</button>
+            <div id="createAccountPopup">
+                <div id="popupContent">
+                    <h3 id="closeButton">&#10006;</h3>
+
+                    <div id="createAccountForm">
+
+                        <p id="errorText"></p>
+
+                        <div>
+                            <p>Username:</p><input id="username" type="text">
+                        </div>
+
+                        <div>
+                            <p>Password:</p><input id="password" type="password">
+                        </div>
+
+                        <div>
+                            <p>Confirm Password:</p><input id="confirmPassword" type="password">
+                        </div>
+
+                        <div class="buttonWrapper">
+                            <button class="btn btnLg btnPrimary" id="sendAccountButton">Create Account</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <script src="js/database.js"></script>
+    </body>
+</html>

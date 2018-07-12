@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+/*Some general element styles*/
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Indie Flower', cursive;
+}
+
+p {
+    margin: 0;
+}
+
+/*End general element styles*/
+
+#app {
+    width: 100%;
+    height: 100%;
+}
+
+.centerText {
+    text-align: center;
+}
+
+#createAccountPopup {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(30, 30, 30, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#popupContent {
+    background-color: white;
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    
+    box-shadow: -5px 10px 5px 0px #E3E5F2;
+    padding: 0;
+}
+
+#closeButton {
+    position: absolute;
+    top: 0;
+    right: 1%;
+    margin: 0;
+    cursor: pointer;
+}
+
+/*Create Account Form styles*/
+
+#createAccountForm {
+    width: 70%;
+    height: 70%;
+
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+
+#createAccountForm > div {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+}
+
+#createAccountForm > button {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+}
+
+#createAccountForm > div > * {
+    display: inline-block;
+
+}
+
+#createAccountForm > div > input {
+    float: right;
+    margin-right: 10%;
+}
+
+/*End of Create Account Form Styles!*/
+
+.btn {
+    border-radius: 100%;
+    font-family: 'Indie Flower', cursive;
+    background-color: white;
+    color: black;
+    border: 1px solid transparent;
+}
+
+.btnLg {
+    padding: 10px 16px;
+    font-size: 18px;
+}
+
+.btnMd {
+    padding: 6px 12px;
+    font-size: 14px;
+}
+
+.btnSm {
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.btnDefault {
+    background-color: #fff;
+    color: #333;
+    border-color: #ccc;
+}
+
+.btnPrimary {
+    color: #fff;
+    background-color: #337bb7;
+    border-color: #2e6da4;
+}
+
+.btnSuccess {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+.btnInfo {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+
+.btnWarning {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+
+.btnDanger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+#sendAccountButton {
+    display: block;
+    width: auto;
+    margin: 0 auto ;
+}
+
+.buttonWrapper {
+    display: flex;
+    justify-content: center;
+}
